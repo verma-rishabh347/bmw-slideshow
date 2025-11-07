@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMW Models</title>
+  <link rel="stylesheet" href="bmw.css" />
+  <script src="bmw.js"></script>
+</head>
+<body>
+  <div id="top">
+    <ul>
+      <li>≡ HOME</li>
+      <li>Details</li>
+      <li>Reviews</li>
+      <li>Awards</li>
+      <li>Contact us</li>
+    </ul>
+  </div>
+
+  <div id="bottom">
+    <div id="ss">
+      <h2>All Models ↓</h2>
+      <ol>
+        <li onclick="model('sedan')">Sedan</li>
+        <li onclick="model('motercycle')">Motercycle</li>
+        <li onclick="model('suv')">SUV</li>
+      </ol>
+    </div>
+
+    <div id="main">
+      <button class="button" onclick="previous()">⇇</button>
+
+      <div>
+        <h1 id="heading"><u>BMW Cars Show</u></h1>
+        <img id="image" src="" alt="" />
+        <p id="details"></p>
+      </div>
+
+      <button class="button" onclick="next()">⇉</button>
+    </div>
+  </div>
+</body>
+</html>
